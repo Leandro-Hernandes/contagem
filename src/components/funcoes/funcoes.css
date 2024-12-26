@@ -1,0 +1,28 @@
+/*Estilização da tag DIV que agrupa o número da contagem e o botão*/
+.principal{   
+    background-color: black;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    gap:10px;
+    align-items: center;
+}
+/*Estilização da tag P que agrupa o número da contagem*/
+div p{
+    font-size: 100px;
+}
+/*Estilização da tag BUTTON que agrupa o número da contagem e o botão*/
+div button{
+    border: solid black;
+    width: 100px;
+    height: 50px;
+    border-radius: 80px;
+    font-weight: bold;
+}
+/*Efeito HOVER NA tag BUTTON*/
+div button:hover{
+   background-color: red;
+   color:white
+}
